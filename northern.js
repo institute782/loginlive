@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         // Disable submit button to prevent multiple submissions
         submitBtn.disabled = true;
-        submitBtn.textContent = 'Submitting...';
+        submitBtn.value = 'Submitting...';
 
         const userData = {
             FullName: key.value,
